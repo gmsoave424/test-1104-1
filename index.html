@@ -3,24 +3,212 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>나의 첫 GitHub 페이지</title>
+  <title>우리 모둠 소개</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Noto Sans KR", "Malgun Gothic", sans-serif;
+      background: #f6f4ee;
+      color: #14202e;
+      line-height: 1.6;
+    }
+    header {
+      background: #14202e;
+      color: #f6f4ee;
+      text-align: center;
+      padding: 48px 20px;
+    }
+    header h1 { margin: 0 0 8px; font-size: 40px; }
+    header p { margin: 0; color: #b8c4d2; font-size: 18px; }
+    .slogan {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 8px 20px;
+      border-radius: 999px;
+      background: #f08a52;
+      color: #14202e;
+      font-weight: bold;
+    }
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fffdf8;
+      border: 1px solid #ddd6c8;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 16px rgba(20, 32, 46, 0.08);
+    }
+    .card .badge {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: #2c5fc4;
+      color: #fff;
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card h2 { margin: 16px 0 4px; font-size: 24px; }
+    .card .role { margin: 0 0 12px; color: #b9541f; font-weight: bold; }
+    .card ul { margin: 0; padding-left: 20px; color: #4a5563; }
+    /* 아직 주인이 없는 자리: 흐리게 보입니다 */
+    .card.empty { opacity: 0.45; border-style: dashed; box-shadow: none; }
+    footer { text-align: center; color: #4a5563; padding: 20px 20px 40px; font-size: 14px; }
+  </style>
 </head>
-<body style="font-family: sans-serif; background: #f6f4ee; padding: 40px; line-height: 1.6;">
-  <h1>안녕하세요, 저는 은하하하입니다</h1>
-  <p>오늘 GitHub 연수에서 만든 첫 웹 페이지예요.</p>
+<body>
 
-  <h2>좋아하는 것</h2>
-  <ul>
-  <li>좋아하는 과목
-    <ul>
-      <li>과학</li>
-      <li>체육</li>
-    </ul>
-  </li>
-    <li>[좋아하는 음식]</li>
-    <li>[요즘 관심사]</li>
-  </ul>
+  <header>
+    <h1>우리 모둠을 소개합니다</h1>
+    <p>GitHub 연수에서 브랜치와 Pull Request로 함께 만든 페이지</p>
+    <!-- 모둠 구호: 모둠장만 고칩니다 -->
+    <p class="slogan">[우리 모둠 구호]</p>
+  </header>
 
-  <p style="color: #2c5fc4;">GitHub Pages로 배포했습니다!</p>
+  <main>
+
+    <!-- ===== 자리 1번 시작 : 1번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">1</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 1번 끝 ===== -->
+
+
+    <!-- ===== 자리 2번 시작 : 2번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">2</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 2번 끝 ===== -->
+
+
+    <!-- ===== 자리 3번 시작 : 3번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">3</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 3번 끝 ===== -->
+
+
+    <!-- ===== 자리 4번 시작 : 4번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">4</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 4번 끝 ===== -->
+
+
+    <!-- ===== 자리 5번 시작 : 5번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">5</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 5번 끝 ===== -->
+
+
+    <!-- ===== 자리 6번 시작 : 6번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">6</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 6번 끝 ===== -->
+
+
+    <!-- ===== 자리 7번 시작 : 7번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">7</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 7번 끝 ===== -->
+
+
+    <!-- ===== 자리 8번 시작 : 8번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">8</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 8번 끝 ===== -->
+
+
+    <!-- ===== 자리 9번 시작 : 9번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">9</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 9번 끝 ===== -->
+
+
+    <!-- ===== 자리 10번 시작 : 10번 자리 주인만 이 아래를 고칩니다 ===== -->
+    <article class="card empty">
+      <div class="badge">10</div>
+      <h2>[별칭]</h2>
+      <p class="role">[학년 또는 담당 과목]</p>
+      <ul>
+        <li>[한 줄 소개]</li>
+        <li>[좋아하는 것]</li>
+      </ul>
+    </article>
+    <!-- ===== 자리 10번 끝 ===== -->
+
+  </main>
+
+  <footer>
+    실명·사진·연락처 대신 별칭으로 작성합니다 · GitHub Pages로 배포
+  </footer>
+
 </body>
 </html>
