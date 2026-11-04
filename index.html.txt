@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>나의 첫 GitHub 페이지</title>
+</head>
+<body style="font-family: sans-serif; background: #f6f4ee; padding: 40px; line-height: 1.6;">
+  <h1>안녕하세요, 저는 [별칭]입니다</h1>
+  <p>오늘 GitHub 연수에서 만든 첫 웹 페이지예요.</p>
+
+  <h2>좋아하는 것</h2>
+  <ul>
+    <li>[좋아하는 과목]</li>
+    <li>[좋아하는 음식]</li>
+    <li>[요즘 관심사]</li>
+  </ul>
+
+  <p style="color: #2c5fc4;">GitHub Pages로 배포했습니다!</p>
+</body>
+</html>
